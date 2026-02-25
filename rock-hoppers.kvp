@@ -1,7 +1,7 @@
 Meta.DisplayName=Rock Hoppers
 Meta.Description=
 Meta.Arch=x86_64
-Meta.Author=Stately - Made with AMP Config Generator
+Meta.Author=StatelyMC
 Meta.URL=http://playwith.rocks
 Meta.MinAMPVersion=2.4.6.6
 Meta.SpecificDockerImage=
@@ -68,7 +68,7 @@ Console.AppReadyRegex=^Server\s+is\s+ready$
 Console.UserJoinRegex=^(?<username>.+)\s+has\s+joined\s+the\s+game$
 Console.UserLeaveRegex=^(?<username>.+)\s+has\s+left\s+the\s+game$
 Console.UserChatRegex=^$
-Meta.OS=1
+Meta.OS=Windows, Linux
 Meta.ConfigManifest=rock-hoppersconfig.json
 Meta.MetaConfigManifest=rock-hoppersmetaconfig.json
 Meta.ConfigRoot=rock-hoppers.kvp
