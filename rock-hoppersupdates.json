@@ -10,7 +10,7 @@
         "ForceDownloadPlatform": "Windows",
         "DeleteAfterExtract": true,
         "OneShot": false
-    }
+    },
 	{
 		"UpdateStageName": "Proton Compatibility Layer", 
 		"UpdateSourcePlatform": "Linux", 
