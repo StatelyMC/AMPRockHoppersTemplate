@@ -81,4 +81,4 @@ App.ExecutableLinux="{{$FullRootDir}}1580130/proton"
 App.LinuxCommandLineArgs=run {{$ExecutableWin}}
 App.Ports=@IncludeJson[rock-hoppersports.json]
 App.UpdateSources=@IncludeJson[rock-hoppersupdates.json]
-App.EnvironmentVariables={"LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%", "WINEPREFIX": "{{$FullRootDir}}1580130/pfx", "WINEARCH": "win64", "WINEDEBUG": "-all", "STEAM_COMPAT_DATA_PATH": "{{$FullRootDir}}1580130/pfx", "STEAM_COMPAT_CLIENT_INSTALL_PATH": "{{$FullRootDir}}1580130","PROTON_LOG":"1",PROTON_LOG_DIR":"{{$FullRootDir}}1580130"}
+App.EnvironmentVariables={"LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%", "WINEPREFIX": "{{$FullRootDir}}1580130/pfx", "WINEARCH": "win64", "WINEDEBUG": "-all", "STEAM_COMPAT_DATA_PATH": "{{$FullRootDir}}1580130", "STEAM_COMPAT_CLIENT_INSTALL_PATH": "{{$FullRootDir}}1580130"}
